@@ -1,0 +1,8 @@
+- name: somalier somalierextract test_somalier_somalierextract
+  command: PROFILE=singularity nextflow run ./main.nf -entry test_somalier_somalierextract -c ./nextflow.config -c ./nextflow_module.config
+  tags:
+    - somalier/somalierextract
+    - somalier
+  files:
+    - path: output/somalier/test2.somalier.extract/tumour.somalier
+      md5sum: e38721ad1741a1604fdcb713a4e6db6e
