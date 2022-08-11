@@ -1,2 +1,5 @@
-run example singularity: PROFILE=singularity nextflow run ./main.nf -c ./nextflow.config -c ./nextflow_module.config --inputCsv inputFiles.csv
-run example docker: PROFILE=docker nextflow run ./main.nf -c ./nextflow.config -c ./nextflow_module.config --inputCsv inputFiles.csv
+# run example singularity
+PROFILE=singularity nextflow run ./main.nf -c ./nextflow.config -c ./nextflow_module.config --inputCsv inputFiles.csv
+
+# run example docker
+PROFILE=docker nextflow run ./main.nf -c ./nextflow.config -c ./nextflow_module.config --inputCsv inputFiles.csv
